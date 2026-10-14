@@ -42,9 +42,8 @@ export const site = {
   headline: 'Turning ideas into presentations people remember.',
   intro:
     'I design pitch decks, investor decks and corporate presentations that give a message structure, a point of view and a look worth presenting.',
-  /** Fill these in. Empty values show a placeholder in the Contact section. */
-  email: '',
-  linkedin: '',
+  email: 'MohitDubey1331@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/mohit-dubey-731a10113',
 }
 
 export const nav = [
@@ -114,7 +113,7 @@ export const about = {
   paragraphs: [
     'I treat every deck as an argument. Before any layout, I work out what the audience should understand, feel and do, then I cut everything that does not help.',
     'Design is how that argument gets across: a clear hierarchy, a type system that holds up on slide forty, and data shown so the point is obvious in a few seconds.',
-    'I have been doing this for 4+ years, and I still start every project by asking one question: what is the one thing this room should remember?',
+        'I have been doing this for 9+ years, and I still start every project by asking one question: what is the one thing this room should remember?',,
   ],
   principles: [
     'One idea per slide',
@@ -150,10 +149,10 @@ export const process = [
 ]
 
 /** Only real numbers belong here. Placeholders are flagged and clearly shown. */
+/** Only real numbers belong here. Placeholders are flagged and clearly shown. */
 export const stats = [
-  { label: 'Years designing presentations', value: '9+', placeholder: false },
+  { label: 'Years of experience', value: '9+', placeholder: false },
   { label: 'Presentations designed', value: '', placeholder: true },
-  { label: 'Clients worked with', value: '', placeholder: true },
   { label: 'Industries served', value: '', placeholder: true },
 ]
 
@@ -169,4 +168,9 @@ export const roles = [
 ]
 
 /** Client logos: add real image paths (with permission) to replace the empty slots. */
-export const clientLogos: { name: string; src?: string }[] = [{ name: '' }, { name: '' }, { name: '' }, { name: '' }, { name: '' }]
+/** Clients worked with. Add `logo: '/clients/name.svg'` (file in /public/clients) to show a logo instead of text. */
+export const clients: { name: string; full?: string; logo?: string }[] = [
+  { name: 'BCG', full: 'Boston Consulting Group' },
+  { name: 'ALM', full: 'American Law Media' },
+  { name: 'FDM CCS' },
+]
